@@ -1,8 +1,3 @@
-##############################
-# ZxCDDoS Made by zxcr9999   #
-# COPY = NIGGER              #
-##############################
-
 import socket
 import os
 import requests
@@ -213,7 +208,7 @@ def amp_games():
 
 
 def menu():
-    sys.stdout.write(f"         \x1b]2;ZxC C2 --> Stars: [{bots}] | Online Users: [1] | Methods: [25] | Bypass: [10] | Amps: [1]\x07")
+    sys.stdout.write(f"         \x1b]2;NaSaKi-V4 --> Stars: [{bots}] | Online Users: [1] | Methods: [25] | Bypass: [10] | Amps: [1]\x07")
     clear()
     print('\x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mNaSaKi \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to NaSaKi V4! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: tdd2006 \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v4.1')
     print("")
@@ -754,17 +749,17 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "tdd"
-    passwd = "tdd2006"
+    user = "admin"
+    passwd = "tranducduy"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Có Cái Lồn")
+        print("Không Làm Mà Đòi Có Ăn")
         sys.exit(1)
     elif username == user and password == passwd:
         print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.3)
+        time.sleep(3.5)
         ascii_vro()
         main()
 
