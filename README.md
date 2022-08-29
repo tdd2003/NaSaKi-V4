@@ -1,4 +1,4 @@
-git clone https://github.com/tdd2996/NaSaKi-V4/
+git clone https://github.com/tdd2066/NaSaKi-V4/
 apt-get install golang -y
 apt-get install perl -y
 apt-get install python3 -y
