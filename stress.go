@@ -1,6 +1,6 @@
 /*
-Coded By Leeon123
-Date: 12/5/2019
+Coded By Tdd2006
+Date: 29/8/2022
 |------------------------------------------------|
 |  This tool is a server stress test tool,       |
 |  It is only use for testing server firewall    |
