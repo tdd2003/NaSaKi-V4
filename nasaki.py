@@ -737,6 +737,7 @@ RULES   ► RULES PANEL
 PORTS   ► SHOW ALL PORTS
 TOOLS   ► SHOW TOOLS
 CLEAR   ► CLEAR TERMINAL
+CHAT   ► CHAT GOBAL
             ''')
 
         else:
@@ -749,7 +750,7 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "admin"
+    user = "tdd"
     passwd = "tranducduy"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
@@ -766,8 +767,8 @@ def login():
 login()
 def login():
     clear()
-    user = "admin"
-    passwd = "tranducduy"
+    user = "lah"
+    passwd = "lah"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
@@ -783,8 +784,8 @@ def login():
 login()
 def login():
     clear()
-    user = "admin"
-    passwd = "tranducduy"
+    user = "test"
+    passwd = "123456"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
@@ -800,8 +801,46 @@ def login():
 login()
 def login():
     clear()
-    user = "admin"
-    passwd = "tranducduy"
+    user = "tmh"
+    passwd = "tmh"
+    username = input("⚡ Username: ")
+    password = getpass.getpass(prompt='⚡ Password: ')
+    if username != user or password != passwd:
+        print("")
+        print("Không Làm Mà Đòi Có Ăn")
+        sys.exit(1)
+    elif username == user and password == passwd:
+        print("⚡ Welcome to NaSaKi-V4")
+        time.sleep(0.1)
+        ascii_vro()
+        main()
+
+login()
+
+login()
+def login():
+    clear()
+    user = "nht"
+    passwd = "nht"
+    username = input("⚡ Username: ")
+    password = getpass.getpass(prompt='⚡ Password: ')
+    if username != user or password != passwd:
+        print("")
+        print("Không Làm Mà Đòi Có Ăn")
+        sys.exit(1)
+    elif username == user and password == passwd:
+        print("⚡ Welcome to NaSaKi-V4")
+        time.sleep(0.1)
+        ascii_vro()
+        main()
+
+login()
+
+login()
+def login():
+    clear()
+    user = "nxt"
+    passwd = "nxt"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
