@@ -39,3 +39,12 @@ npm i randomstring
 npm i cluster
 
 npm i cloudflare-bypasser
+
+
+
+
+Command Setup HaToKiv2 ( File main.py )
+
+python3 setup.py
+
+python3 main.py
