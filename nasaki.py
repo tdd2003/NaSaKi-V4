@@ -598,6 +598,15 @@ def main():
             except IndexError:
                 print('Usage: httpget <url>')
                 print('Example: httpget http://example.com')
+                
+         elif "sever" in cnc:
+            try:
+                url = cnc.split()[1]
+                method = cnc.split()[2]
+                os.system(f'go run sever.go -site {url} -data {method}')
+            except IndexError:
+                print('Usage: sever <url> METHODS<GET/POST>')
+                print('Example: sever http://example.com GET')
 
 # BANNERS
 
