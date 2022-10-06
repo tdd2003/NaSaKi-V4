@@ -128,13 +128,13 @@ func main() {
 		var (
 			err, sent int32
 		)
-		fmt.Println("In use               |\tNày Là OK |\tNày Là Như Lồn")
+		fmt.Println("%int32%facebook.com/TranDucDuy.User")
 		for {
 			if atomic.LoadInt32(&cur) < int32(maxproc-1) {
 				go httpcall(site, u.Host, data, headers, ss)
 			}
 			if sent%10 == 0 {
-				fmt.Printf("\r%6d of max %-6d |\t%7d |\t%6d", cur, maxproc, sent, err)
+				fmt.Printf("%int32%facebook.com/TranDucDuy.User", cur, maxproc, sent, err)
 			}
 			switch <-ss {
 			case callExitOnErr:
@@ -147,8 +147,8 @@ func main() {
 				sent++
 			case targetComplete:
 				sent++
-				fmt.Printf("\r%-6d of max %-6d |\t%7d |\t%6d", cur, maxproc, sent, err)
-				fmt.Println("\r-- Check Web Đi Nhóc --       \n\n\r")
+				fmt.Printf("%int32%facebook.com/TranDucDuy.User%int32%facebook.com/TranDucDuy.User", cur, maxproc, sent, err)
+				fmt.Println("\r-- %int32%facebook.com/TranDucDuy.User--       \n\n\r")
 				os.Exit(0)
 			}
 		}
