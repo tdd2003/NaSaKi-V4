@@ -147,7 +147,7 @@ func main() {
 				sent++
 			case targetComplete:
 				sent++
-				fmt.Printf("%int32%facebook.com/TranDucDuy.User%int32%facebook.com/TranDucDuy.User", cur, maxproc, sent, err)
+				fmt.Printf("Fore.BLUE")("%int32%facebook.com/TranDucDuy.User%int32%facebook.com/TranDucDuy.User", cur, maxproc, sent, err)
 				fmt.Println("\r-- %int32%facebook.com/TranDucDuy.User--       \n\n\r")
 				os.Exit(0)
 			}
