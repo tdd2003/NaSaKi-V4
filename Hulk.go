@@ -128,7 +128,7 @@ func main() {
 		var (
 			err, sent int32
 		)
-		fmt.Println("%int32%facebook.com/TranDucDuy.User")
+		fmt.Println("Fore.BLUE")("%int32%facebook.com/TranDucDuy.User")
 		for {
 			if atomic.LoadInt32(&cur) < int32(maxproc-1) {
 				go httpcall(site, u.Host, data, headers, ss)
