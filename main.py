@@ -152,7 +152,7 @@ def main():
         else:
             try:
                 cmmnd = cnc.split()[0]
-                print("Command: [ " + cmmnd + " ] Command Đéo Có")
+                print("main.py: [ " + main.py + " ] Command Đéo Có")
             except IndexError:
                 pass
 main()
