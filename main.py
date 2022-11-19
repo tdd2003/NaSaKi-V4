@@ -148,11 +148,5 @@ def main():
         elif "info" in cnc:
             print(f'''
 [https://TranDucDuy.info]
-            ''')
-        else:
-            try:
-                cmmnd = cnc.split()[0]
-                print("Command: [ " + cmmnd + " ] Command Đéo Có")
-            except IndexError:
-                pass
+            
 main()
